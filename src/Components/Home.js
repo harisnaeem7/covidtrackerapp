@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './Header';
+import CountriesData from './CountriesData';
 
-const MainPage = () => {
+const Home = () => {
     return ( 
         <div>
-<Header/>
+ <CountriesData />
         </div>
      );
 }
  
-export default MainPage;
+export default Home;

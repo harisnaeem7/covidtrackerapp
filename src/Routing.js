@@ -6,13 +6,13 @@ import {
   } from "react-router-dom";
   import Countries from './Components/Countries';
   import About from './Components/About';
-  import MainPage from './MainPage';
+  import Home from './Components/Home';
 
 const Routing = () => {
     return(
     <Router>
 <Routes> 
-    <Route exact path="/" element={<MainPage/>}/>
+    <Route exact path="/" element={<Home/>}/>
     <Route path="/country" element={<Countries/>}/>
     <Route path="/about" element={<About/>}/>
 </Routes>

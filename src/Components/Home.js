@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import CountriesData from "./CountriesData";
 import { Practice } from "./Pratice";
+import { AccountForm } from "./AccountForm";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <br></br>
       <h2>Practicing</h2>
       <Practice />
+      <AccountForm />
     </div>
   );
 };
